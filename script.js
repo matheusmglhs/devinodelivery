@@ -196,7 +196,7 @@ checount.addEventListener("click", function () {
 function checkRestaurantOpen() {
     const data = new Date();
     const hora = data.getHours();
-    return hora >= 9 && hora < 12;
+    return hora >= 18 && hora < 23;
 }
 const spanItem = document.getElementById("horarios-funcionamento")
 const isOpen = checkRestaurantOpen();

@@ -31,7 +31,7 @@
         /* Primeira camada: gradiente preto */
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         /* Segunda camada: sua imagem de fundo */
-        url('/img/img-cachorro-quente.png');
+        url('/img/pastel.jpg');
     /* As camadas são empilhadas de trás para frente, então a imagem de fundo será exibida sobre o gradiente preto */
     background-size: cover;
     background-position: center;
