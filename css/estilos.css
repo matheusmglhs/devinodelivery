@@ -156,7 +156,7 @@ main {
 
     margin: 2em auto;
     padding: 20px;
-    background-image: url(../img/background3.jpg);
+    background-color: #fca404;
     border-radius: 8px;
     margin-top: 5px;
     display: grid;
@@ -355,7 +355,7 @@ main {
 }
 
 body {
-    background-image: url('../img/background2.jpg');
+    background-color: #fca404;
     margin: 0%;
     font-size: 16px;
     padding: 0;
@@ -375,7 +375,7 @@ body {
     main {
         margin: 4;
         padding: 5px;
-        width: 400px;
+        width: 390px;
 
 
 
