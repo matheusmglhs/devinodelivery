@@ -17,7 +17,23 @@
 
     <!--header-->
     <header>
-        <div class="top">
+        <div style=" position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        /* Cobrir toda a largura da tela */
+        height: 300px;
+        /* Altura desejada da parte preta */
+        background-image:
+            /* Primeira camada: gradiente preto */
+            linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            /* Segunda camada: sua imagem de fundo */
+            url('/img/imagemtop.png');
+        /* As camadas são empilhadas de trás para frente, então a imagem de fundo será exibida sobre o gradiente preto */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 0;">
             <div class="style">
                 <center>
 
