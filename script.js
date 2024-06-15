@@ -168,7 +168,7 @@ checount.addEventListener("click", function () {
     const message = encodeURIComponent(cartItems)
     const phone = "5583988213793"
 
-    window.open(`https://wa.me/${phone}?text=${message} Endereço;${address.value}`, "_blank")
+    window.open(`https://wa.me/${phone}?text=${message} Endereço;${address.value} número da casa;${address.value}`, "_blank")
 
     cart = [];
 
@@ -196,7 +196,7 @@ checount.addEventListener("click", function () {
 function checkRestaurantOpen() {
     const data = new Date();
     const hora = data.getHours();
-    return hora >= 18 && hora < 23;
+    return hora >= 0 && hora < 2;
 }
 const spanItem = document.getElementById("horarios-funcionamento")
 const isOpen = checkRestaurantOpen();

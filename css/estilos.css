@@ -47,7 +47,8 @@
 }
 
 .hidden {
-    display: none
+    display: none;
+
 }
 
 
@@ -86,7 +87,9 @@ hr {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     letter-spacing: 0px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: -5px;
+
 }
 
 
@@ -112,6 +115,8 @@ hr {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: space-around;
+
+
 }
 
 
@@ -188,6 +193,8 @@ main {
 
 
 
+
+
 }
 
 
@@ -230,9 +237,9 @@ main {
 }
 
 .button {
-    color: black;
+
     background-color: black;
-    border-radius: 0.25rem;
+
     margin-top: -40px;
     width: 55px;
     height: 27px;
@@ -310,7 +317,7 @@ main {
     max-height: 400px;
 
 
-    margin-top: -100px;
+    margin-top: -90px;
 
 
 
@@ -350,9 +357,7 @@ main {
 }
 
 
-.hidden {
-    display: none;
-}
+
 
 body {
     background-color: #fca404;
@@ -371,11 +376,25 @@ body {
     background-color: rgb(220 38 38);
 }
 
+.fotter {
+    width: 100%;
+    background-color: #ba0a06;
+    position: fixed;
+    bottom: 0px;
+    z-index: 40;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    margin-left: 300px;
+
+}
+
 @media only screen and (max-width:768px) {
     main {
         margin: 4;
         padding: 5px;
         width: 380px;
+        margin-top: 15px;
 
 
 
@@ -431,4 +450,12 @@ body {
 
 
     }
+
+    .grid {
+        flex-direction: column;
+        /* Altera para layout de coluna em telas menores */
+        align-items: center;
+    }
 }
+
+/* CSS para telas grandes */
